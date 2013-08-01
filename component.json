@@ -1,0 +1,8 @@
+{
+  "name": "firebase",
+  "repo": "lvivier/firebase",
+  "description": "Firebase client component",
+  "version": "0.0.1",
+  "dependencies": {},
+  "scripts": ["index.js"]
+}
