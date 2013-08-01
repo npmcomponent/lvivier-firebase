@@ -21,7 +21,7 @@ function firebase (cb) {
   }
 
   function onload () {
-    if (!window.Firebase && window.FirebaseSimpleLogin) return
+    if (!(window.Firebase && window.FirebaseSimpleLogin)) return
 
     firebase.Firebase = window.Firebase
     firebase.FirebaseSimpleLogin = window.FirebaseSimpleLogin
